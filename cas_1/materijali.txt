@@ -1,0 +1,74 @@
+==================== OSNOVI NA HTML I CSS ================
+
+
+Што претставува веб страна?
+
+Веб-страница е документ до кој се пристапува преку веб-прелистувач и се прикажува на компјутер или мобилен уред. Може 
+да содржи текст, слики, видеа и други видови содржина, како и интерактивни елементи како што се врски(линкови) и 
+форми. Веб-страниците се напишани во HTML (јазик за означување на хипертекст) и обично се хостирани на веб-сервер, што 
+ги прави достапни за корисниците на интернет. Веб-страницата е збирка на веб-страници кои се поврзани една со друга и 
+споделуваат заедничко име на домен или URL.
+
+
+Што е HTML?
+
+HTML е кратенка за Hypertext Markup Language. Тоа е стандарден јазик за означување што се користи за креирање 
+веб-страници и други видови онлајн содржини што може да се прикажат на интернет. HTML им овозможува на програмерите да 
+ја структурираат содржината на веб-страница со дефинирање на наслови, параграфи, списоци, врски, слики и други 
+елементи. Исто така, овозможува користење на листови со стилови и јазици за скриптирање како CSS и JavaScript за 
+контрола на изгледот и однесувањето на веб-страниците.
+
+HTML е составен од серија ознаки затворени во аголни загради. Ознаките ја дефинираат структурата и содржината на 
+веб-страницата и може да вклучуваат атрибути кои специфицираат дополнителни информации за некој елемент. На пример, 
+ознаката <img> се користи за вградување слика на веб-страница, а атрибутот src ја одредува URL-то или патеката на 
+датотеката на сликата што треба да се прикаже.
+
+
+
+
+HTML TAGS:
+
+- <!DOCTYPE html> - This is the document type declaration for an HTML document, which tells the browser that the 
+document is an HTML file.
+
+- <html></html> - The <html> tag is the top-level element of an HTML document and represents the root of the document 
+tree. It is used to enclose all other elements in the document and provides a container for the head and body sections 
+of the document.
+
+- <head></head> - The <head> tag is a container element in HTML that contains metadata about the web page, such as the 
+title of the page, links to external stylesheets, scripts, and other important information that is not directly 
+displayed on the web page. The <head> tag is located between the <html> and <body> tags of an HTML document.
+
+- <title></title> - The <title> tag is an HTML element that defines the title of a web page. It is located within the 
+<head> section of an HTML document and is used to provide a concise and descriptive title for the page.
+
+- <meta/> - The <meta> tag is an HTML element used to provide metadata about a web page. Metadata is information about 
+a web page that is not visible on the page itself, but is used by browsers, search engines, and other software to 
+understand and process the content of the page. The <meta> tag can be used to specify various types of metadata, such 
+as the page's title, author, description, keywords, character encoding, and more.
+
+- <body></body> - The <body> tag is an HTML element that defines the visible content of a web page. The <body> tag is 
+located within the <html> tag and contains all the content that will be displayed on the page, including text, images, 
+links, videos, and other media.
+
+- <p></p> - The <p> tag is an HTML element used to define paragraphs of text on a web page. It stands for "paragraph" 
+and is used to create a block of text that is separated from surrounding content, typically with blank lines above and 
+below it.
+
+- <h1></h1> - The <h> tag is an HTML element used to create headings or headings of different levels on a web page. 
+The "h" stands for "heading", and the number following the "h" indicates the level of the heading, where 1 is the 
+highest level and 6 is the lowest level.
+
+- <img /> - The <img> tag is an HTML element used to insert an image into a web page. It is a self-closing tag, which 
+means it does not require a closing tag.
+
+
+Дополнителни материјали:
+
+HTML
+- https://www.w3schools.com/html/default.asp
+- https://www.codecademy.com/learn/learn-html 
+- https://developer.mozilla.org/en-US/docs/Web/HTML
+
+Shortcuts, Extensions and basic setup for VSC
+- https://www.youtube.com/watch?v=fJEbVCrEMSE
