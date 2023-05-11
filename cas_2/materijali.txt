@@ -1,0 +1,50 @@
+HTML TAGS:
+
+- <a/> - The <a> tag is an HTML element used to create a hyperlink or a link to 
+another web page, a file, or a location on the same page. The "a" stands for "anchor", 
+and it is also known as the anchor tag.
+
+- <ol></ol> - The <ol> tag is used to create an ordered list, which is a list of 
+items where each item is numbered or ordered in some way.
+
+- <ul></ul> - The <ul> tag, on the other hand, is used to create an unordered 
+list, which is a list of items where each item is not ordered or numbered in any particular way. 
+
+- <li></li> - The <li> tag is an HTML element used to represent a single item
+in a list. It stands for "list item" and is used within <ol> (ordered list) or <ul> (unordered list) tags to define each individual item in the list.
+
+- <header></header> - The <header> tag is an HTML element used to define the 
+header section of a web page or a section of it. The header section typically 
+contains introductory content, such as a logo, a navigation menu, a search bar,
+or other elements that appear at the top of a web page.
+
+- <nav></nav> - The <nav> tag is an HTML element used to define a section of a
+web page that contains navigation links to other pages or sections of the same page. 
+The <nav> element can be used within the <header> or <footer> tags, or within the 
+<body> tag to define a specific navigation section within the content of the web page.
+
+- <table></table> - The <table> tag is an HTML element used to create tables on a 
+web page. Tables are used to display data in rows and columns, making it easier 
+for users to read and compare information.
+
+- <caption></caption> - The <caption> tag is an HTML element that is used to add a 
+title or a caption to an HTML table. It is usually placed directly below the <table> tag, 
+but before the <thead> tag, if present. The <caption> tag can contain any text, 
+including HTML tags, and can be styled using CSS.
+
+- <thead></thead> - The <thead> tag is an HTML element that is used to define the 
+header section of an HTML table. It is typically used to group together the table's 
+header content, which is usually the first row or rows of the table that contain column headings.
+
+-<tbody> - The tbody tag, is used to group a set of table rows (defined by the tr tag) 
+that make up the body of a table. 
+
+-<tr> - The tr tag, or table row tag, is used to define a row of cells within a table. 
+It is a container element that must be used within a table (table) or table body (tbody) tag. 
+Each row can contain one or more table data cells (td) or table header cells (th) that 
+define the content of the cell.
+
+-<td> - The td tag, or table data cell tag, is used to define a cell in a table 
+that contains data. It must be used within a table row (tr) tag. The content of 
+the td element can be text, images, links, or other HTML elements. It can also have 
+attributes such as colspan and rowspan to span across multiple columns or rows within the table.
