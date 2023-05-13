@@ -1,0 +1,96 @@
+============== HTML FORMS =================
+
+
+Examples and explanations:
+
+-------- <input type="email" name="e-mail" id="e-mail" /> --------
+
+This line of code creates an <input> element with three attributes: type, name, and id.
+
+The TYPE attribute is set to "email", which indicates that this input is intended for 
+entering an email address. This can provide some validation checks on the entered email 
+address to ensure that it is in a valid format.
+
+The NAME attribute is set to "e-mail", which is the name of the input control that will
+be sent to the server when the form is submitted. The server can then use this name to 
+identify the email address that was entered.
+
+The ID attribute is set to "e-mail", which provides a unique identifier for the input element. 
+This can be used by JavaScript to access and manipulate the input control.
+
+Overall, this line of code creates an email input control with the name "e-mail" 
+and the ID "e-mail", which can be used for validation and identification purposes.
+
+
+
+HTML TAGS
+
+- <form></form> - The <form> tag is an HTML element used to create a container for 
+interactive input elements, such as text fields, checkboxes, radio buttons, buttons, and more. 
+It is used to collect user input and send it to a server for further processing.
+
+The <form> tag has two main attributes: action and method.
+
+The ACTION attribute specifies where the form data should be sent for processing. This is 
+typically a URL that points to a server-side script that will process the form data.
+
+The METHOD attribute specifies how the form data should be sent to the server. 
+There are two possible values for this attribute: GET and POST. When using GET, 
+the form data is appended to the URL as a query string, while with POST, the form 
+data is sent in the request body.
+
+- <input /> - The <input> element is a fundamental form element in HTML used to 
+create a variety of form controls. It is a self-closing tag and can include several
+attributes that define the behavior of the input control, such as type, name, value, 
+placeholder, and more.
+
+The most common input types are:
+
+text: used to create a single-line text input field
+password: used to create a single-line password input field
+email: used to create a single-line email input field
+checkbox: used to create a checkbox control
+radio: used to create a radio button control
+submit: used to create a submit button control
+
+- <label></label> - The <label> tag is another fundamental form element in HTML that 
+is used to associate a label with an input control. The label is used to describe 
+the purpose of the input control, and is typically displayed alongside the control.
+
+-<button></button> - The <button> tag is used to create a clickable button on a web page. 
+The button can perform different actions when clicked, such as submitting a form or triggering 
+some JavaScript function. The <button> tag can contain text or other HTML elements, such as 
+images or icons, to provide additional context or visual cues to the user.
+
+- <textarea></textarea> The <textarea> tag in HTML is used to create a multi-line input 
+field where users can enter text. Unlike the <input> tag which is used for single-line 
+inputs, the <textarea> tag can accept multiple lines of text.
+
+- <select></select> - The <select> tag in HTML is used to create a drop-down list of 
+options that users can choose from. It is often used in HTML forms to allow users to 
+select one or more options from a list.
+
+- <option> - The <option> tag is used to define the options that appear in a drop-down 
+list created with the <select> tag. Each option is defined with an <option> tag, and 
+the content of the tag is the text that appears in the list for that option.
+
+- <optgroup></optgroup> - The <optgroup> tag is used to group related options in a 
+drop-down list created with the <select> tag. It is a child element of the <select> 
+tag and can contain one or more <option> tags. 
+
+-<fieldset></fieldset> - The <fieldset> tag is an HTML container element that is 
+used to group related form elements together. It can be used to visually separate 
+the form fields into logical sections or categories.
+
+- <div></div> - The div tag is used to create a block-level container element that 
+groups other HTML elements together. It is used to divide sections of a webpage into 
+distinct and meaningful parts, such as header, navigation, content, and footer. 
+The div tag has a default display property of block, which means it starts on a 
+new line and takes up the entire width available. The div tag is often used with 
+CSS styling to apply a common style to multiple elements within the container.
+
+- <span></span> - The span tag is used to create an inline-level container element 
+that is used to group inline-level elements together. It is often used to apply styles 
+to a small portion of text, such as a single word or phrase within a paragraph. 
+The span tag has a default display property of inline, which means it does not start 
+on a new line and only takes up the width of its contents.
