@@ -1,0 +1,44 @@
+=============== CSS ================
+
+
+--------- What is CSS? -----------
+
+CSS stands for Cascading Style Sheets. It is a language used for describing the presentation and styling of HTML documents. With CSS, you can control the layout, fonts, colors, spacing, and other visual aspects of your web pages.
+
+- CSS is the language we use to style an HTML document.
+- CSS describes how HTML elements should be displayed.
+
+
+Three Ways to Insert CSS:
+- External CSS
+- Internal CSS
+- Inline CSS
+
+
+-------- CSS Selectors ---------
+
+-Element Selector - The element selector is used to target HTML elements based on their tag name. For example, if you want to apply styles to all the paragraph elements on a web page, you can use the element selector "p".
+
+-Id Selector - The ID selector is a CSS selector that is used to target an HTML element based on its unique ID attribute. An ID is a unique identifier that can be assigned to an element in HTML, and it is used to differentiate that element from others on the page. The ID selector is denoted by the "#" symbol followed by the ID name.
+
+-Class Selector - The class selector in CSS is used to select elements with a specific class attribute. It allows you to apply a specific style to a group of elements based on a shared class name. To define a class selector, you use a period (.) followed by the class name. Using classes makes it easy to apply consistent styles to groups of elements throughout your website. You can use multiple classes on a single element, and you can combine class selectors with other selectors to create more specific rules.
+
+-The Universal Selector - The Universal Selector in CSS is denoted by the asterisk (*) symbol and selects all elements in an HTML document. It can be used to apply styles to all elements, regardless of their type or location within the HTML document.
+
+-The Grouping Selector - The CSS Grouping Selector allows you to apply the same set of styles to multiple selectors at once. It is denoted by separating multiple selectors by commas. For example, suppose you want to apply the same font family and font color to all h1, h2, and h3 headings.
+
+
+List of the selectors by their precedence:
+
+1. Inline styles (style attribute)
+2. ID selectors 
+3. Class selectors
+4. Attribute selectors
+5. Pseudo-classes
+6. Element selectors
+7. Universal selector
+
+
+Dopolnitelni materijali:
+CSS Example: https://www.w3schools.com/css/css_examples.asp
+CSS Cheat Sheet: https://www.geeksforgeeks.org/css-cheat-sheet-a-basic-guide-to-css/
