@@ -1,0 +1,94 @@
+--------- Box Model -----------
+
+The box model is a concept in web design that describes how elements are displayed on a webpage 
+in a rectangular box. It consists of four parts: content, padding, border, and margin.
+
+The content area is the space where the actual content of the element is displayed, 
+such as text or images. The padding is the space between the content and the border, 
+and it can be used to add space within an element. The border is a line that surrounds 
+the content and padding, and it can be used to add visual style or to create a boundary 
+around an element. The margin is the space between the border of an element and other 
+elements on the page, and it can be used to create spacing between elements.
+
+The box model is important to understand when creating and designing web pages, as it 
+allows developers and designers to control the size, position, and spacing of elements 
+on the page. By adjusting the values of the content, padding, border, and margin, designers 
+can create a variety of different layouts and designs.
+
+
+CSS properties:
+
+- Colors are specified using predefined color names, or RGB, HEX, HSL, RGBA, HSLA values.
+
+1. Named colors: CSS supports 147 named colors, such as "red", "green", "blue", "orange", etc.
+
+2. Hexadecimal colors: A hexadecimal color is a six-digit code that represents the amount of red, 
+green, and blue in a color. For example, #FF0000 is the hexadecimal code for red.
+
+3. RGB colors: RGB stands for red, green, blue. In CSS, you can define colors using the RGB color
+model, which consists of three values: the amount of red, green, and blue in the color. 
+For example, rgb(255, 0, 0) is the RGB value for red.
+
+4. RGBA colors: RGBA stands for red, green, blue, alpha. The alpha value determines the opacity 
+of the color. For example, rgba(255, 0, 0, 0.5) is a red color with 50% opacity.
+
+5. HSL colors: HSL stands for hue, saturation, and lightness. Hue is a degree on 
+the color wheel, saturation is the amount of gray in the color, and lightness is the 
+amount of white or black in the color. For example, hsl(0, 100%, 50%) is a pure red color.
+
+6. HSLA colors: HSLA stands for hue, saturation, lightness, and alpha. The alpha value 
+determines the opacity of the color. For example, hsla(0, 100%, 50%, 0.5) is a pure red 
+color with 50% opacity.
+
+
+- border - The CSS border properties allow you to specify the style, width, and color 
+of an element's border.
+
+- The border-radius property is used to add rounded borders to an element
+
+- margin is used to create space around elements, outside of any defined borders.
+
+- padding is used to create space around an element's content, inside of any defined borders.
+
+- height and width properties are used to set the height and width of an element.
+
+- outline is a line drawn outside the element's border.
+
+-box-sizing - is a CSS property that controls how the total width and height of an element 
+is calculated. It determines whether an element's width and height should include the 
+padding and border or not.
+
+The box-sizing property can have two possible values:
+
+content-box (default): This is the default value where the width and height of the 
+element only include the content area, excluding the padding and border. In other words, 
+the specified width and height values do not account for any additional space taken up by 
+the padding or border.
+
+border-box: With this value, the width and height of the element include the content, 
+padding, and border. In this case, the specified width and height values represent the 
+total size of the element, including any padding and border. The content area will be 
+adjusted to fit within this total size.
+
+Using box-sizing: border-box is often recommended as it simplifies the sizing calculations,
+especially when working with complex layouts. It allows you to set explicit dimensions for 
+elements without worrying about the additional space taken up by padding and border.
+
+
+
+---------- Generic Font Families ------------
+
+In CSS there are five generic font families:
+
+- Serif fonts have a small stroke at the edges of each letter. They create a sense of formality and elegance.
+- Sans-serif fonts have clean lines (no small strokes attached). They create a modern and minimalistic look.
+- Monospace fonts - here all the letters have the same fixed width. They create a mechanical look. 
+- Cursive fonts imitate human handwriting.
+- Fantasy fonts are decorative/playful fonts.
+
+
+
+Дополнителни материјали: 
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS
+- https://www.w3schools.com/css/css_intro.asp 
