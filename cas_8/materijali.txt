@@ -74,3 +74,8 @@ list of CSS flexbox properties that apply to the children (flex items):
 4. flex
 5. order
 6. align-self
+
+
+Additional Materials: 
+1. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+2. https://flexboxfroggy.com/ 
