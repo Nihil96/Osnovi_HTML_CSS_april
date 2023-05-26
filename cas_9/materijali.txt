@@ -1,0 +1,50 @@
+----------- Responsive Design -----------
+
+Responsive design is an approach to web design that aims to create a website that can adjust and 
+adapt to different screen sizes and devices. This means that the website will look good and be 
+usable on a desktop computer, laptop, tablet, or smartphone, regardless of the screen size or 
+orientation.
+
+Responsive design typically involves using fluid grids, flexible images, and media queries to 
+adjust the layout and content of the website based on the size of the screen. This can include 
+changing the size and position of elements, hiding or showing certain elements, and changing 
+the font size and line height.
+
+The goal of responsive design is to create a consistent user experience across all devices, 
+and to ensure that the website is easy to use and navigate, no matter how it is accessed.
+
+
+----------- Media Query --------------
+
+A media query is a CSS technique that allows styles to be applied based on the characteristics 
+of the device being used to view a web page. In other words, it's a way of specifying different 
+styles for different devices, screen sizes, and orientations. Media queries can be used to 
+create responsive designs that adjust their layout and styling to provide the best possible 
+user experience on different devices, such as smartphones, tablets, laptops, and desktops.
+
+Media queries are defined using the @media rule in CSS, and they allow you to specify 
+different styles for different viewport sizes. For example, you might define a media 
+query that applies a different font size and layout for screens that are smaller than 
+768 pixels wide. When a device's screen size matches the conditions specified in the media 
+query, the styles defined within that media query are applied to the page.
+
+Most often, max-width and min-width are used in the media query when developing 
+a responsive web sites.
+
+- max-width: applies styles when the screen width is less than or equal to a specified value.
+- min-width: applies styles when the screen width is greater than or equal to a specified value.
+
+In other words, max-width is used to target smaller screens, while min-width is used to 
+target larger screens.
+
+For example, if you want to apply a specific style to screens that are 768px wide or 
+smaller, you would use max-width: 768px. If you want to apply a style to screens that 
+are 769px or wider, you would use min-width: 769px.
+
+
+
+Dopolnitelni materijali:
+
+Responsive design:
+1. https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design
+2. https://web.dev/learn/design/
